@@ -1,0 +1,52 @@
+.contact{
+    background-color: white;
+    padding-bottom: 30px;
+}
+h1{
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    padding: 20px 5px 10px 10px;
+    margin-left: 12px;
+    
+   
+    
+}
+.titles{
+    margin-bottom:0;
+    padding-bottom:0;
+}
+.name{
+   font-family: 'Proxima Nova', Georgia, sans-serif;
+   font-size: 25px;
+    line-height: 1.5em;
+    text-transform: none;
+    letter-spacing: 0px;
+    font-weight: 400;
+    font-style: normal;
+    color: #1a2d48;
+    padding-left: 25px;
+    
+     margin-bottom:0;
+    padding-bottom:0;
+}
+.details{
+    font-family: 'Proxima Nova', Georgia, sans-serif;
+    font-size: 18px;
+    line-height: 1.5em;
+    letter-spacing: 0px;
+    font-weight: 400;
+    font-style: normal;
+    color: #76787f;
+    padding-left: 25px;
+   
+}
+
+.email{
+  color:   #cc051c;
+}
+.hr2{
+    margin:10px 55px 0px 25px;
+    border-top: 2px;
+    
+}

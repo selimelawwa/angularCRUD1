@@ -1,0 +1,178 @@
+.mycontainer {
+    padding-right: 30px;
+    padding-left: 30px;
+    width: 100%;
+    
+}
+body{
+
+    background-color: #1a2438;
+    
+}
+
+header{
+    background:#1a2438;
+    height: 100px;
+    
+    
+}
+header::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+.logo{
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding: 12px 3px 10px 0px;
+    /* border: solid #ffffff;
+    border-width: 1px; */
+    margin: 2px;
+    margin-top: 19px;
+    text-decoration: none;
+}
+.logo:hover{
+    text-decoration: none;
+}
+.awwa{
+    font-weight: bold;
+}
+nav{
+    float: right;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav li{
+    display: inline-block;
+    margin-left: 10px;
+    padding-top: 8px;
+    position: relative;
+    margin-top: 25px;
+    margin-right: 5px;
+}
+nav a{
+    color: #ffffff;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    text-transform: uppercase;
+    
+    padding-right: 0px;
+    /* border-right: solid;
+    border-color: #ffffff;
+    border-width: 1px; */
+   
+}
+.last{
+    border: none;
+    padding-right: 0px;
+}
+nav a:hover{
+    color: #ffffff;
+
+}
+nav a::before{ /*This is for the block once we hover but set width to zero*/
+  content: '';
+  display: block;
+  height: 5px;
+  
+  background-color: #ffffff;
+  position: absolute;
+   
+  top: 0;
+
+  transition: all ease-in-out 50ms;
+  width: 0%;
+}
+nav a:hover::before{ /*on hover we set width of block to 100%*/
+    width: 100%;
+     
+} 
+
+.headerphoto{
+  
+    width: 100%;
+    height: 400px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    display: inline-block;
+     vertical-align: top;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    font-style: bold;
+    color: #2551a1;
+
+}
+/* .intro{
+    font-family: sans-serif;
+    font-size: 18px; 
+} */
+.intro{
+    
+    width: 100%;
+    background-color: white;
+    
+    padding: 10px 15px 10px 15px;
+    color: #383838;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.intro-text{
+    font-family: sans-serif;
+    font-size: 20px; 
+}
+.fixmargin{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 58px;
+    font-weight: bold;
+}
+.header2{
+    background: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 36px;
+    color: #1a2438;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 0px;
+    text-transform: uppercase;
+}
+.sloganbold{
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+footer{
+    margin-top: -17px;
+    background-color: #1a2438;
+}
+footer p{
+    color: #ffffff;
+    font-family:  Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 0px 10px 15px 5px;
+    margin-top: 5px;
+}
+.hr1{
+    margin-top: 100px;
+    border-top: 1px;
+}
+
+
+
